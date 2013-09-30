@@ -1,0 +1,128 @@
+﻿body{margin:0px; padding:0px; font-family: Arial, Helvetica, sans-serif;	font-size: 12px; 
+     background:#4396ca url(/admin/images/pgbg.jpg) repeat-x; 
+
+}
+
+
+/*Admin Login Css*/
+#main_outer{ margin:0 auto; width:1000px;  }
+#banner{ float:left; width:1000px;}
+.banner_left{ float:left;  width:553px; height:115px;}
+.banner_lefta{ float:left;  width:437px; height:115px;}
+.admin_text{float:left; background:url(/admin/images/bg.png) repeat; 	width:980px;color:#0c3d75;font-size:13px;padding:10px; text-align: justify; line-height:18px; margin-top:5px; }
+.banner_left1{ margin-left:240px; float:left;  width:553px; height:115px;}
+.banner_left{ float:left;  width:553px; height:115px;}
+.banner_right{ float:right; width:447px;  padding-top:35px; font-family:"Times New Roman", Times, serif; font:"Times New Roman", Times, serif; font-size:30px; color:#FFF; }
+#login_outer{ float:left; padding:25px; width:950px;}
+#login_area{ width:400px; height:215px;   background:#3986ba; border:1px solid #9ed0f0;  float:left;    border-radius:25px; -moz-border-radius:15px; -moz-box-shadow:1.0px 1.0px 5px #000000;-webkit-box-shadow:1.0px 1.0px 10px #000000;box-shadow:1.0px 1.0px 10px #000000;  vertical-align:middle; margin-left:300px; margin-top:80px;  }
+.loginsize{ float:left; width:390px; margin:5px; }
+.menubg{background:url(../images/btbg.jpg) repeat-x; float:left; width:1000px; height:37px;	padding-top:8px;}
+
+
+/*.admin_text{ float:left; text-align:center;  font-size:24px; color:#f7ce1a; width:100%; margin-top:5px;   }*/
+.user{ float:left; margin:5px; width:93%; padding-left:15px; font-size:16px; color:#FFF; margin-top:18px;}
+.text_area{  background:#FFF; border:1px solid #ccc; height:25px; width:220px; margin-left:25px; color:#666; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; }
+.text_area1{  background:#FFF; border:1px solid #ccc;  width:300px; margin-left:25px; color:#CCC; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; }
+.text_area2{  background:#FFF; border:1px solid #ccc; height:25px; width:150px; margin-left:25px; color:#666; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; height:30px; }
+.text_area3{  background:#FFF; border:1px solid #ccc;  width:220px; margin-left:25px; color:#CCC; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; }
+.black_text{ font-size:16px; }
+.login_butt{ float:right; font-size:14px; font-weight:bold; padding-top:20px; background:url(/admin/images/login_butt.png)  no-repeat; text-align:center; color:#fff; margin-right:28px; margin-top:5px;
+} 
+
+
+#login_outer1{ float:left;  width:1000px;}
+#head_text{ float:left; font-size:14px; color:#000; font-weight:bold; padding-left:10px; padding-top:5px; }
+#head_text1{ float:right; font-size:14px; color:#000; font-weight:bold; padding-right:10px; padding-top:5px; width:180px;  }
+.white_text{ margin-left:5px;  font-size:14px; color:#fff; font-weight:bold;}
+
+.menu ul{ margin:0px; padding:0px; float:left; height:30px; ; margin-top:3px;  }
+.menu li{  display:inline;text-decoration:none;   margin-left:14px; margin-right:10px;  }
+.menu li a{ ; display:inline;   font-size:14px; color:#ffffff; text-decoration:none;}
+.menu li a:hover{  color:#000000; display:inline; text-decoration:none;   font-size:14px;  border-bottom:#ffffff dotted 1px;}
+
+
+
+.indexmenu ul{ margin:0px; padding:0px; float:left; font-family:"Times New Roman", Times, serif; font:"Times New Roman", Times, serif; margin-top:2px;  }
+.indexmenu li{  display:inline ;text-decoration:none;   margin-left:14px; margin-right:6px; }
+.indexmenu li a{ ; display:inline;   font-size:16px; color:#ffffff; text-decoration:none;}
+.indexmenu li a:hover{  color:#000000; display:inline; text-decoration:none;   font-size:16px; }
+
+#content_area{ float:left; width:1000px; background:#fbfbfb;  }
+#content_area_blank{ float:left; width:1000px; background:#4396ca; border:1px solid #0c3d75;   }
+#next_button{ float:left; background:url(../images/button_next.png) no-repeat; font-size:12px; font-weight:bold; padding-left:18px; width:81px; height:38px; padding-top:12px; text-align:center; color:#FFF; margin:25px; }
+.bluetext{ color:#49ABDC; font-size:14px; }
+.redtext{ color:#F00; font-size:14px; }
+.link{ text-decoration:none; color:#FFF;}
+.link:hover{ text-decoration:none; color:#0CF;}
+.font_size{ font-size:14px; font-weight:bold; color:#000;}
+.small_text{ font-size:11px; margin-left:25px; margin-bottom:2px;}
+#next_button1{ float:left; background:url(../images/button_next.png) no-repeat; font-size:12px; font-weight:bold; padding-left:18px; width:81px; height:38px; padding-top:12px; text-align:center; color:#FFF; margin:5px; margin-left:80px; }
+#back_button{ float:left; background:url(../images/back.png) no-repeat; font-size:12px; font-weight:bold; padding-right:22px; width:77px; height:38px; padding-top:12px; text-align:center; color:#FFF; margin:5px; margin-left:80px; }
+
+
+.etext_area{  background:#FFF; border:1px solid #ccc; height:25px; width:400px; margin-left:25px; color:#666; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; }
+
+.footer{ width:1000px; float:left; text-align:center; color:#fff; font-size:12px; margin-top:8px; line-height:20px; }
+
+
+/*User Index Page css*/
+#user{ float:left; margin:10px; width:980px; }
+#user .uname{ float:left; padding-top:8px; font-size:15px; color:#FFF; padding-left:8px; font-weight:bold; margin-top:10px; }
+#user .time{float:right; margin:5px;	color:#FFF;	text-align: right; line-height:20px; font-weight:bold;  }
+
+#ucontent{float:left; margin:10px; width:980px; text-align:justify; font-size:13px; color:#FFF; line-height:20px; padding-bottom:20px;}
+#topbanner{ float:left; width:363px; height:78px; margin-left:80px; margin-top:8px; }
+
+/*User Profile Page css*/
+
+.uid{ float:left; margin-left:230px; width:120px; text-align:center; color:#FC0;  margin-top:10px; padding-top:8px; font-weight:bold; font-size:15px; }
+.uid1{ float:left; margin-left:250px; text-align:center; color:#FC0; margin-top:10px; padding-top:8px; font-weight:bold; font-size:15px; }
+.profileouter{ float:left; width:990px; margin-left:5px;  margin-top:10px; font-size:16px; color:#0c3d75; font-weight:bold; text-align:center; padding-top:5px; padding-bottom:5px; background:#fbfbfb;}
+
+.ptext{ padding-left:8px;   color:#666;}
+.edit{ color:#39F; text-decoration:none;  }
+.edit:hover{ text-decoration:underline; color:#39F;  }
+
+
+/*Binary Payoutes Page css*/
+
+.table{ color:#0c3d75; font-weight:bold; font-size:12px;}
+.table1{ color:#666666;  font-size:12px; font-size:14px; padding-top:5px; padding-bottom:5px;}
+
+.blue_link{ text-decoration:none; color:#0c3d75;}
+.blue_link:hover{ text-decoration:none; color:#0c3d75;}
+
+.text_areae{  background:#FFF; border:1px solid #ccc; height:25px; width:220px;  color:#666; font-size:16px;   border-radius:25px; -moz-border-radius:5px; padding-left:5px; }
+
+
+.pagemenu ul{ margin:0px; padding:0px; text-align:center;  margin-top:2px; padding-top:5px; padding-bottom:5px; background:#fbfbfb;  }
+.pagemenu li{  display:inline ;text-decoration:none;   margin-left:12px; margin-right:6px; }
+.pagemenu li a{ ; display:inline;   font-size:12px; color:#0c3d75; text-decoration:none;}
+.pagemenu li a:hover{  color:#0c3d75; display:inline; text-decoration:none;   font-size:12px; }
+
+
+#bcontent{float:left; margin:10px; width:980px;  font-size:13px; color:#FFF; line-height:20px;}
+.enter_button{ float:left; margin-left:25px; height:30px; }
+
+
+/*Matrix Payoutes css*/
+
+#m_table{  border:1px solid  #09F;  }
+.m_table{ padding-left:8px; color:#0c3d75; font-weight:bold; font-size:12px; }
+.m_table1{ padding-left:8px; color:#666666;  font-size:12px; font-size:14px; padding-top:5px; padding-bottom:5px;}
+.m_redtext{ padding-left:8px; color: #FF0000;}
+
+
+.ga_area{ background:url(../images/form_bg.jpg) repeat-x; border:1px solid #ccc; height:23px; width:220px; margin-left:25px; color:#666; font-size:16px;   padding-left:5px; }
+
+.ga_area2{   background:url(../images/form_bg.jpg) repeat-x; border:1px solid #ccc; height:25px; width:150px; margin-left:25px; color:#666; font-size:16px;    padding-left:5px; height:30px; }
+.ga_area3{  background:#FFF; border:1px solid #ccc;  width:220px; margin-left:25px; color:#666; font-size:16px;  padding-left:5px;  background:url(../images/form_bg.jpg) repeat-x;  }
+
+.ga_area_ms{ background:url(../images/form_bg.jpg) repeat-x; border:1px solid #ccc; height:23px; width:280px;  color:#666; font-size:16px;   padding-left:5px;  margin-bottom:10px; }
+
+.checkbox_newsletter{
+       
+    font-family:Arial,Tahoma;
+    font-size:13px;font-weight:bold;
+
+}

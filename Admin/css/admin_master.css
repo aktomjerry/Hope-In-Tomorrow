@@ -1,0 +1,35 @@
+﻿.user_pannel {
+    width: 209px;
+    height: 400px;
+    top: 80px;
+    float: left;
+   
+     background:#4396ca url(/admin/images/pgbg.jpg) repeat-x; 
+    border: 1px solid #4a399f;
+    
+}
+.user_pannel ul{
+    float:left;
+    margin-top:35px;
+    margin-left:-20px;
+    list-style:none;
+     height: 217px;
+    width: 191px;
+}
+.user_pannel  ul li{
+     font-family:Arial, Helvetica, sans-serif;	font-size: 18px;
+     color:white;
+     
+     padding:6px;
+}
+.user_pannel2 {
+    margin-left:10px;
+    width: 77%;
+    height: 400px;
+    top: 80px;
+    float: left;
+   
+     background:#4396ca url(/admin/images/pgbg.jpg) repeat-x; 
+    border: 1px solid #4a399f;
+    
+}

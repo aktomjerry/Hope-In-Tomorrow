@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs" Inherits="adminmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="css/layout_admin.css" rel="stylesheet" />
+    <link href="css/admin_master.css" rel="stylesheet" />
+   
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/effects.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="banner"></div>
+<div style="float:left; width:100%; height:33px; margin-top:52px; background:url(images/btbg.jpg) repeat-x; padding-top:8px;">
+<div style="width:1000px; float:left; margin-left:180px; ">
+<div class="menu">
+<ul>
+<li><a href="View users.aspx">View Users </a></li>
+
+<li><a href="#">Manage Settings</a></li>
+
+<li><a href="Event.aspx">Events</a></li>
+
+<li><a href="News.aspx">News</a></li>
+
+<li><a href="#">Reports</a></li>
+
+<li><a href="Change Password.aspx">Change Password</a></li>
+
+<li><a href="Default.aspx">Logout</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="main_outer" >
+<div id="user">
+<div style="float:left; margin-top:10px;"><img src="images/user.png" alt="User" /></div>
+<div class="uname">Welcome Admin</div>
+<div class="time">Current Time:<asp:Label runat="server" ID="date" /><br /> GMT+0530 (India Standard Time)</div>
+
+</div> 
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+<div style="float:left; width:1000px; text-align:center; color:#FFF; margin-top:80px;">Copyright © 2010 All right reserved</div>
+
+</div>
+        
+        
+    
+    </form>
+</body>
+</html>
